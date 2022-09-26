@@ -4,8 +4,11 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
     <link rel="stylesheet" href="../css/inicio.css" />
-    <title></title>
+    <link rel="stylesheet" href="../iconos/style.css">
+    <link rel="icon" href="../multimedia/icono_web.png">
+    <title>Top Auriculares</title>
   </head>
   <body>
     <header>
@@ -14,14 +17,14 @@
           <li><a href="">INICIO</a></li>
           <li><a href="">TOP</a></li>
           <li><a href="">NOVEDADES</a></li>
-          <li><a href="">CONTACTO</a></li>
+          <li><a href="contacto.html">CONTACTO</a></li>
         </ul>
       </nav>
     </header>
     <section>
       <article id="section_article1">
         <div>
-          <h1>Nuestra función</h1>
+          <span class="icon-wrench"></span>
           <p>
             Este sitio web está destinado a la búsqueda de auriculares, según
             tus necesidades. Ya sean para escuchar música, jugar videojuegos,
@@ -29,7 +32,7 @@
           </p>
         </div>
         <div>
-          <h1>Comparamos</h1>
+          <span class="icon-stats-dots"></span>
           <p>
             Mostramos comparativas precisas, según las opiniones de los
             usuarios, de expertos y de los componentes del producto, en esto es
@@ -38,7 +41,7 @@
           </p>
         </div>
         <div>
-          <h1>Calidad / Precio</h1>
+          <span class="icon-stats-bars"></span>
           <p>
             Para los que buscan cosas normales, para un uso diario y no quedarse
             atrás, también buscamos una organización en nuestro top, sin tener
@@ -47,17 +50,29 @@
         </div>
       </article>
       <article id="section_article2" class="campo">
-        <a href="">DEPORTE</a>
+        <a href="" data-aos="fade-down">DEPORTE</a>
       </article>
       <article id="section_article3" class="campo">
-        <a href="">MÚSICA</a>
+        <a href="" data-aos="fade-down">MÚSICA</a>
       </article>
     </section>
     <article id="section_article4" class="campo">
-      <a href="">GAMING</a>
+      <a href="" data-aos="fade-down">GAMING</a>
     </article>
     <article id="section_article5" class="campo">
-      <a href="">TELETRABAJO</a>
+      <a href="" data-aos="fade-down">TELETRABAJO</a>
     </article>
+    <article id="section_article6">
+      <video src="../multimedia/video1.mp4" autoplay muted></video>
+    </article>
+
+
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+
+    <script>
+      AOS.init({
+        duration: 1650
+      });
+    </script>
   </body>
 </html>
