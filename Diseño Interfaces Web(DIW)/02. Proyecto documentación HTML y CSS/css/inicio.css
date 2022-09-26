@@ -1,11 +1,12 @@
 @import url('https://fonts.googleapis.com/css2?family=Space+Mono:wght@400;700&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Michroma&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;700&display=swap');
 *{
     padding: 0%;
     margin: 0%;
-    font-family: 'Space Mono', monospace;
+    font-family: 'Montserrat', sans-serif;
     font-weight: 400;
-    border: solid;
+    /* border: solid; */
 }
 header{
     width: 100%;
@@ -38,6 +39,8 @@ header{
     text-shadow: 0px 27px 0px #FC757B;
 }
 section #section_article1{
+    box-shadow: 0px 0px 10px 5px black;
+
     display: flex;
     align-items: center;
     text-align: center;
@@ -51,6 +54,7 @@ section #section_article1{
     padding: 10px;
 }
 #section_article2{
+    box-shadow: 0px 0px 10px 5px black;
     background-image: url("../multimedia/deporte.jpg");
     background-attachment: fixed;
     background-repeat: no-repeat;
@@ -67,18 +71,33 @@ section #section_article1{
     text-decoration: none;
     font-size: 70px;
     color: white;
-    font-family: 'Michroma', sans-serif;
     text-shadow: 4px 4px 0px #A81E21;
     transition: 0.5s;
 }
-.campo a:hover{
-    text-shadow: 4px 50px 0px #A81E21;
-}
 #section_article3{
+    box-shadow: 0px 0px 10px 5px black;
     background-image: url("../multimedia/musica.jpg");
-    background-attachment: scroll;
+    background-attachment: fixed;
     background-repeat: no-repeat;
     background-position: center center;
+    background-size: cover;
+    height: 50vh;
+}
+#section_article4{
+    box-shadow: 0px 0px 10px 5px black;
+    background-image: url("../multimedia/gaming.jpg");
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-position: top center;
+    background-size: cover;
+    height: 50vh;
+}
+#section_article5{
+    box-shadow: 0px 0px 10px 5px black;
+    background-image: url("../multimedia/teletrabajo.jpg");
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-position: top center;
     background-size: cover;
     height: 50vh;
 }
