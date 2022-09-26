@@ -1,53 +1,84 @@
-@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Space+Mono:wght@400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Michroma&display=swap');
 *{
     padding: 0%;
     margin: 0%;
-    font-family: 'Montserrat', sans-serif;
+    font-family: 'Space Mono', monospace;
     font-weight: 400;
-    /* border: solid; */
+    border: solid;
 }
 header{
     width: 100%;
     height: 100vh;
     background-image: url(../multimedia/fondo1.jpg);
     background-attachment: fixed;
-    background-position: center left;
+    background-position: right top;
     background-size: cover;
-}
-nav img{
-    position: absolute;
-    left: 15%;
-    padding: 100px;
-    width: 200px;
 }
 #nav_menu{
     height: 100vh;
     display: flex;
-    justify-content: start;
-    align-items: center;
-    width: 50%;
+    justify-content: center;
     list-style-type: none;
 }
 #nav_menu li{
-    padding: 0 50px;
+    padding: 75px 50px;
     text-align: center;
 }
 #nav_menu li a{
     text-decoration: none;
     font-weight: 700;
     font-size: 35px;
-    color: #303032;
-    /* text-shadow: 2px 3px 2px #16100D; */
+    color: white;
     transition: 0.35s;
-    text-shadow: 2px 2px 2px #825841;
+    text-shadow: 4px 4px 0px #A81E21;
 
 }
 #nav_menu li a:hover{
-    text-shadow: 0px 27px 0px #825841;
+    text-shadow: 0px 27px 0px #FC757B;
 }
-@keyframes parpadeo {
-    0%{
-
-    }
-    
+section #section_article1{
+    display: flex;
+    align-items: center;
+    text-align: center;
+    height: 40vh;
+}
+#section_article1 div{
+    width: 33.3%;
+    padding: 50px;
+}
+#section_article1 h1,p{
+    padding: 10px;
+}
+#section_article2{
+    background-image: url("../multimedia/deporte.jpg");
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    height: 50vh;
+}
+.campo a{
+    height: 100%;
+    display: flex;
+    padding: 0 100px;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+    font-size: 70px;
+    color: white;
+    font-family: 'Michroma', sans-serif;
+    text-shadow: 4px 4px 0px #A81E21;
+    transition: 0.5s;
+}
+.campo a:hover{
+    text-shadow: 4px 50px 0px #A81E21;
+}
+#section_article3{
+    background-image: url("../multimedia/musica.jpg");
+    background-attachment: scroll;
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    height: 50vh;
 }
