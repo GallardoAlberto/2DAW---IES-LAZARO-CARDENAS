@@ -1,0 +1,22 @@
+#nav_menu{
+    width: 100%;
+    display: flex;
+    justify-content: end;
+    list-style-type: none;
+}
+#nav_menu li{
+    text-align: center;
+    padding: 50px;
+}
+#nav_menu li a{
+    text-decoration: none;
+    font-weight: 700;
+    font-size: 30px;
+    color: white;
+    transition: 0.35s;
+    text-shadow: 4px 4px 0px #A81E21;
+
+}
+#nav_menu li a:hover{
+    text-shadow: 27px 27px 0px #d0ff00;
+}

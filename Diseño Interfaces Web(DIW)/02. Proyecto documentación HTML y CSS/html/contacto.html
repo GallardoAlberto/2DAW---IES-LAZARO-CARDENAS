@@ -4,15 +4,53 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
     <link rel="icon" href="../multimedia/icono_web.png">
-    <title>Top Auriculares - Contacto</title>
+    <link rel="stylesheet" href="../css/menu.css">
+    <link rel="stylesheet" href="../css/contacto.css">
+    <title>CONTACTO - Top Auriculares</title>
 </head>
 <body>
     <header>
-
+        <nav>
+            <ul id="nav_menu">
+              <li><a href="index.html">INICIO</a></li>
+              <li><a href="">TOP</a></li>
+              <li><a href="">NOVEDADES</a></li>
+              <li><a href="contacto.html">CONTACTO</a></li>
+            </ul>
+          </nav>
+          <h1 data-aos="fade-down">CONTACTO</h1>
     </header>
     <section>
-        
+        <article id="section_formulario">
+            <form>
+                <div>
+                    <label>Nombre:</label>
+                    <input type="text">
+                </div>
+                <div>
+                    <label>Correo electrónico:</label>
+                    <input type="email">
+                </div>
+                <div>
+                    <label>Asunto: </label>
+                    <textarea name="" id="" cols="30" rows="10"></textarea>
+                </div>
+                <div class="botones">
+                    <input type="submit">
+                    <input type="reset">
+                </div>
+            </form>
+        </article>
+
     </section>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+
+    <script>
+      AOS.init({
+        duration: 1650
+      });
+    </script>
 </body>
 </html>
