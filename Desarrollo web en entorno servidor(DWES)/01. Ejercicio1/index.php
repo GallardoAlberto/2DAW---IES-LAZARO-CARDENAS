@@ -34,7 +34,7 @@
             }
         }
         
-        print "<h1>" . $personaFuerte ." - " . $mayor .", tienes que bajar un pco de peso </h1>";
+        print "<br><h1>" . $personaFuerte ." - " . $mayor .", tienes que bajar un poco de peso </h1>";
         
     ?>
 </body>

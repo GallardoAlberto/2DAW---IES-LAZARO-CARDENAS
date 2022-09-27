@@ -6,10 +6,7 @@ console.log("Valor dado por el usuario ", valor);
 
 if (Number(valor)){
     alert("Número");
-    confirm.log(Number(valor));
 }
-
 if(isNaN(valor)){
     alert("No es un número");
-    console.log(isNaN(valor));
 }

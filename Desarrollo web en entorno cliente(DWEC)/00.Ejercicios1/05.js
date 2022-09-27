@@ -6,3 +6,8 @@
 
 let numero = Number(prompt("Número positivo: "));
 
+do {
+    alert("Número no valido, introduce otro por favor.");
+    let numero = Number(prompt("Número positivo: "));
+} while (numero < 0);
+
