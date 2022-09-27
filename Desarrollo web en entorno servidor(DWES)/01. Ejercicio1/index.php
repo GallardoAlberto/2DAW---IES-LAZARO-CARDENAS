@@ -12,13 +12,30 @@
          "Alberto" => 85,
          "Rulo" => 70,
          "Victor" => 60,
+         "Peter" => 100,
          "Moleiro" => 80,
          "Gustavo" => 85,
          "Alex" => 50,
          "Sebastian" => 70
         );
 
-         print "<h1>" . $nombre_peso . "</h1>";
+        $cont = 0;
+
+        $mayor = 0;
+        // bucle foreach, lee todos los valores = resultado, no se puede hacer con el bucle for normal porque no le podemos asignar valor
+        foreach($nombre_peso as $valor1 => $valor2){    
+            $cont++;
+            print "<h1>" . $cont ." - " . $valor1 . " - " . $valor2 . "<br> </h1>";
+
+            
+            if ($valor2 > $mayor) {
+                $personaFuerte = $valor1;
+                $mayor = $valor2;
+            }
+        }
+        
+        print "<h1>" . $personaFuerte ." - " . $mayor .", tienes que bajar un pco de peso </h1>";
+        
     ?>
 </body>
 </html>

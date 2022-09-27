@@ -1,3 +1,14 @@
+// Realiza una página web que revisa el salario de un empleado, Se pedirá (prompt) los datos del empleado (Nombre, Apellidos, Edad y salario actual). No se validan los datos en una primera versión. La revisión del salario sigue las siguientes normas:
+
+// Salarios > 2000, no se alteran.
+// Salarios entre 1000 y 2000 se incrementan
+// un 3% a los empleados > 45 años
+// un 10% a los empleados con edad <= 45 años
+// Salarios < 1000
+// 	Los menores de 30 años pasan a cobrar 1100 euros
+// 	A los empleados con edad comprendida entre 30 y 45 se aplica una subida del 3%
+// 	A los mayores de 45 se les aplica un incremento del 15%.
+
 let nombre = prompt("Nombre");
 let apellidos = prompt("Apellidos");
 let edad = Number(prompt("Edad"));

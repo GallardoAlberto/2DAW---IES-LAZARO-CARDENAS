@@ -1,3 +1,7 @@
+// Realizar una página web que solicite al usuario introducir un número,.
+// A continuación se visualizará un mensaje con alert que muestre la tabla de multiplicar de ese número. 
+
+
 let tabladel = Number(prompt("Número de la tabla de multiplicar a mostrar"));
 
 alert(`0 x ${tabladel} = `+ tabladel * 0);
