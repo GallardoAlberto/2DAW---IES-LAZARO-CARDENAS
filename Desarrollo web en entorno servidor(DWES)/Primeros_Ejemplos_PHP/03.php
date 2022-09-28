@@ -1,5 +1,5 @@
-<!-- Ejercicio2:
-Calcular el máximo entre 2 números dados. -->
+<!-- Ejercicio3:
+Calcular el máximo entre 3 números dados. -->
 
 <!DOCTYPE html>
 <html lang="en">
@@ -13,12 +13,18 @@ Calcular el máximo entre 2 números dados. -->
     <?php
         $num1 = 300;
         $num2 = 200;
+        $num3 = 400;
 
-        if($num1 > $num2){
-            print "<p> El número " . $num1 . " es mayor que ". $num2;
+        if($num1 > $num2 && $num1 > $num3){
+            print "<p> El número " . $num1 . " es mayor que ". $num2 . " y que " . $num3;
+        }else if ($num2 > $num1 && $num2 > $num3) {
+            print "<p> El número " . $num2 . " es mayor que ". $num1 . " y que " . $num3;
+        }else if ($num3 > $num1 && $num3 > $num2){
+            print "<p> El número " . $num3 . " es mayor que ". $num1. " y que " . $num2;
         }else{
-            print "<p> El número " . $num2 . " es mayor que ". $num1;
+            print "Hay 2 números iguales";
         }
+        
     ?>
 </body>
 </html>

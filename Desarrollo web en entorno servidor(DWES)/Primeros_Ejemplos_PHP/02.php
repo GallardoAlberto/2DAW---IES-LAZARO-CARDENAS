@@ -1,6 +1,5 @@
-<!-- Ejercicio1:
-Calcular el factorial de un nº dado(lo metemos a mano dentro de una variable y vamos dándo
-distintos valores para comprobar que nos funciona��) -->
+<!-- Ejercicio2:
+Calcular el máximo entre 2 números dados. -->
 
 <!DOCTYPE html>
 <html lang="en">
@@ -12,14 +11,13 @@ distintos valores para comprobar que nos funciona��) -->
 </head>
 <body>
     <?php
-        $num = 7;
-        $cont = 1;
-        $acum = 1;
+        $num1 = 300;
+        $num2 = 200;
 
-        for ($i=0; $i < $num ; $i++) { 
-            $acum = $acum * $cont;
-            $cont++;
-            print "<p>" . $acum ."</p>  ";
+        if($num1 > $num2){
+            print "<p> El número " . $num1 . " es mayor que ". $num2;
+        }else{
+            print "<p> El número " . $num2 . " es mayor que ". $num1;
         }
     ?>
 </body>
