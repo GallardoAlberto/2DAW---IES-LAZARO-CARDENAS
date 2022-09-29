@@ -14,7 +14,8 @@ let apellidos = prompt("Apellidos");
 let edad = Number(prompt("Edad"));
 let salario = Number(prompt("Salario"));
 
-console.log(`Datos de usuario ${nombre}, ${apellidosç}, ${edad}, ${salario}'`);
+console.log(`Datos de usuario ${nombre}, ${apellidos}, ${edad}, ${salario}'`);
+
 if(salario > 2000){
     salario = salario;
 }

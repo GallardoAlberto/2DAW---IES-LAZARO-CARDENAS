@@ -35,11 +35,67 @@ header{
     margin: 0 auto;
     height: 100vh;
 }
+#secciones{
+    text-align: center;
+    padding: 50px;
+    font-size: 50px;
+    background-color: #ac2f31;
+    color: white;
+    text-shadow: 4px 4px 1px black;
+    font-weight: 600;
+
+}
 #section_article2{
+    height: 100vh;
+}
+#section_article2 #caja_secciones{
+    display: flex;
+    height: 100%;
+}
+#section_article2 #caja_secciones div{
+    width: 25%;
     display: flex;
     justify-content: center;
     align-items: center;
-    text-align: center;
+}
+#caja_secciones a{
+    text-decoration: none;
+    font-size: 40px;
+    color: white;
+    text-shadow: 4px 4px 1px #A81E21;
+    font-weight: 400;
+}
+#caja_secciones .deporte{
+    background-image: url(../multimedia/deporte.jpg);
+    background-position: center top;
+    background-size: cover;
+    box-shadow: 0px 0px 10px 0px black;
 
-    height: 100vh;
+}
+#caja_secciones .musica{
+    background-image: url(../multimedia/musica.jpg);
+    background-position: center top;
+    background-size: cover;
+    box-shadow: 0px 0px 10px 0px black;
+    
+}
+#caja_secciones .gaming{
+    background-image: url(../multimedia/gaming.jpg);
+    background-position: center top;
+    background-size: cover;
+    box-shadow: 0px 0px 10px 0px black;
+}
+#caja_secciones .teletrabajo{
+    background-image: url(../multimedia/teletrabajo.jpg);
+    background-position: center top;
+    background-size: cover;
+    box-shadow: 0px 0px 10px 0px black;    
+}
+@keyframes agrandar {
+    0%{
+
+    }
+    50%{
+        width: 100%;
+    }
 }
