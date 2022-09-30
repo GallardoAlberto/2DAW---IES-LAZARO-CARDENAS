@@ -4,7 +4,7 @@
     margin: 0%;
     font-family: 'Montserrat', sans-serif;
     font-weight: 700;
-    /* border: solid; */
+    border: solid;
 }
 header{
     width: 100%;
@@ -49,6 +49,13 @@ form div input,textarea{
 	display:block;
     font-size: 20px;
     background-color: rgb(235, 235, 235);
+}
+form #sexo{
+    display: flex;
+    justify-content: center;
+}
+form #sexo div{
+    text-align: center;
 }
 form #sexo input{
     width: 15px;

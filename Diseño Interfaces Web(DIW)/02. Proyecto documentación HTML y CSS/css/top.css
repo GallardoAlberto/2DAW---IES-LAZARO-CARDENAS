@@ -39,11 +39,10 @@ header{
     text-align: center;
     padding: 50px;
     font-size: 50px;
-    background-color: #ac2f31;
+    background-color: #1c1c1c;
     color: white;
-    text-shadow: 4px 4px 1px black;
+    text-shadow: 4px 4px 10px #A81E21;
     font-weight: 600;
-
 }
 #section_article2{
     height: 100vh;
@@ -90,12 +89,4 @@ header{
     background-position: center top;
     background-size: cover;
     box-shadow: 0px 0px 10px 0px black;    
-}
-@keyframes agrandar {
-    0%{
-
-    }
-    50%{
-        width: 100%;
-    }
 }
