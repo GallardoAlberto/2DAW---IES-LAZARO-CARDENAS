@@ -4,7 +4,7 @@
     margin: 0%;
     font-family: 'Montserrat', sans-serif;
     font-weight: 700;
-    border: solid;
+    /* border: solid; */
 }
 header{
     width: 100%;
@@ -43,7 +43,7 @@ form div input,textarea{
     padding: 10px;
     width:90%;
 	border:2px solid #f6f6f6;
-    margin: 10px auto;
+    margin: 20px auto;
 	border-radius:10px;
 	resize:none;
 	display:block;
