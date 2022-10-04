@@ -11,6 +11,8 @@
 let altura = parseInt(prompt("Teclee metros o pulse ‘N’ para finalizar"));
 console.log(altura);
 
-
+if(prompt == N){
+    
+}
 
 let anchura =  parseInt(prompt("la anchura de la pared en metros"));

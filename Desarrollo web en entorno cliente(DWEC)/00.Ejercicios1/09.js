@@ -31,3 +31,4 @@ console.log(acumulador1);
 // 3 dígitos cuando la suma de los dígitos a la potencia de 3
 //  es igual a sí mismo. (Por ejemplo: 1 ^ 3 + 5 ^ 3 + 3 ^ 3 = 153), visualiza todos los números de narcisos.
 
+
