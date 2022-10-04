@@ -10,14 +10,24 @@
     <?php
 
         $cont = 0;
-        $fichero = fopen("11_ejercicioFichero.txt" , "r");
+        $fichero = fopen("11_ejercicioFicheros.csv" , "r");
 
         $txt1 = fgetcsv($fichero, ";");
         $txt2 = fgetcsv($fichero, ";");
         $txt3 = fgetcsv($fichero, ";");
 
-        for ($i=0; $i < count($txt1) ; $i++) { 
-            print $txt1[$i] . "<br>" . $txt2[$i] .  "<br>" . $txt3[$i] . "<br>";           
+        for ($i=0; $i < 5 ; $i++) { 
+            print $txt1[$i] . "<br>" . $txt2[$i] .  "<br>" . $txt3[$i] . "<br>";         
+            
+            if(strstr($txt1[$i], "Paqui") == true){
+                $cont++;
+            }
+            if(strstr($txt2[$i], "Paqui") == true){
+                $cont++;
+            }
+            if(strstr($txt3[$i], "Paqui") == true){
+                $cont++;
+            }
         }
 
         print $cont . " Paquis";

@@ -8,11 +8,17 @@
 
 // - Después debe multiplicar la altura por la anchura y presentar al usuario los metros cuadrados de superficie de la pared utilizando document.write(...)
 
-let altura = parseInt(prompt("Teclee metros o pulse ‘N’ para finalizar"));
+var altura = parseInt(prompt("Teclee metros o pulse ‘N’ para finalizar"));
 console.log(altura);
 
-if(prompt == N){
-    
+if(altura == Number(altura)){
+    let anchura =  parseInt(prompt("la anchura de la pared en metros"));
+    alert("metros cuadrados = " + altura * anchura);
+}
+else{
+    if(isNaN(altura) == true){
+        let salir = altura.toString;
+        console.log(salir);
+    }
 }
 
-let anchura =  parseInt(prompt("la anchura de la pared en metros"));

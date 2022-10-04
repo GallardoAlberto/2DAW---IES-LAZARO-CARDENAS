@@ -9,16 +9,70 @@
 
 let numRandom = Math.round(Math.random()*100);
 let num = 0;
-
+let intentos = 0;
 do {
+
     num = Number(prompt("Introduce un número del 1 al 100"));
-    if (num > numRandom) {
-        alert("Te has pasado");
-    }
-    if (num < numRandom) {
-        alert("Te has quedado corto");
-    }
-    if ( num === numRandom){
-        alert("Has acertado!")
+
+    if(num == false){
+        alert("Has abandonado");
+        break;
+    }else{
+        while (num < 0 || num > 100 || num !== Number(num)) {
+            num = parseInt(prompt("Introduce algo válido. "));
+            }
+        
+            if (num > numRandom) {
+                alert("Te has pasado");
+            }
+            if (num < numRandom) {
+                alert("Te has quedado corto");
+            }
+            if ( num === numRandom){
+                alert("Has acertado!")
+            }        
+            intentos++;
+            alert("Intentos = " + intentos);
     }
 } while (num != numRandom);
+
+
+if(num == numRandom){
+
+    while(confirm("Otra partida?") == true){
+        let numRandom = Math.round(Math.random()*100);
+        let num = 0;
+        let intentos = 0;
+        
+        do {
+
+            num = Number(prompt("Introduce un número del 1 al 100"));
+        
+            if(num == false){
+                break;
+            }else{
+                while (num < 0 || num > 100 || num !== Number(num)) {
+                    num = parseInt(prompt("Introduce algo válido. "));
+                    }
+                
+                    if (num > numRandom) {
+                        alert("Te has pasado");
+                    }
+                    if (num < numRandom) {
+                        alert("Te has quedado corto");
+                    }
+                    if ( num === numRandom){
+                        alert("Has acertado!")
+                    }        
+                    intentos++;
+                    alert("Intentos = " + intentos);
+            }
+
+        } while (num != numRandom);
+
+        if(num == false){
+            alert("Has abandonado");
+            break;
+        }
+    }
+}
