@@ -12,11 +12,17 @@
     $fichero = fopen("13.txt", "r");
 
     $txt = fgetcsv($fichero);
+
+    // lo paso a tipo String
     $cadena = implode($txt);
+
+    // creo un array y quito los espacios en blanco
+
     $array = array_filter(explode(" ", $cadena));
 
     foreach($array as $valor){
 
+        // Si el valor es igual de derecha a izquierda, se sustituye el valor por true
         if($valor == strrev($valor)){
             print substr_replace($valor, "true, ",0 );
         }else{
