@@ -6,16 +6,24 @@ let cuenta = {
     banco: prompt("Banco: "),
     swift: prompt("SWIFT: "),
     sucursal: prompt("Sucursal: "),
-    saldo : 0
+    saldo : 0,
+
+    datosTitular : function(){
+        return `Títular: ${cuenta.nombreTitular} <br> DNI: ${cuenta.dni} <br> Nacionalidad: ${cuenta.nacionalidad}`;
+    },
+    
+    datosBanco : function(){
+        return `<br> Banco: ${cuenta.banco} <br> Código SWIFT: ${cuenta.swift}`;
+    }
 }
 
-cuenta.datosTitular = function(){
-    return `Títular: ${cuenta.nombreTitular} <br> DNI: ${cuenta.dni} <br> Nacionalidad: ${cuenta.nacionalidad}`;
+let ingreso = Number(prompt("Dinero a ingresar"));
+
+cuenta.ingresar = () =>{
+    return `${cuenta.saldo = cuenta.saldo + ingreso} saldo actual`;
 }
 
-cuenta.datosBanco = function(){
-    return `<br> Banco: ${cuenta.banco} <br> Código SWIFT: ${cuenta.swift}`;
-}
 
 document.write(cuenta.datosTitular());
 document.write(cuenta.datosBanco());
+alert(cuenta.ingresar());
