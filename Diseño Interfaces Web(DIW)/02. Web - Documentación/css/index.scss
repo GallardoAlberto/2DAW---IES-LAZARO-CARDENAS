@@ -15,11 +15,20 @@ $verdeOscuro : #1C3C3A;
     // color: white;
 }
 header{
+    height: 100vh;
+    width: 100%;
+    background-image: url("../multimedia/Picsart_22-08-08_14-45-28-333.jpg");
+    background-attachment: fixed;
+    background-size: cover;
+    background-position: center center;
     nav{
+        border-top: 1px solid $dorado;
+        border-bottom: 1px solid $dorado;
         display: flex;
         padding: 10px;
-        background-color: #000000;
+        background-color: $negro;
         img{
+            padding: 0 20px;
             width: 100px;
         }
         #menu{
@@ -40,5 +49,52 @@ header{
                 }
             }
         }
+    }
+}
+section{
+    .sobreNosotros{
+        display: grid;
+        grid-template-columns: 3fr 3fr 3fr;
+        article{
+            background-color: $verdeClaro;
+            box-sizing: border-box;
+            padding: 50px 100px;
+            h1{
+                text-transform: capitalize;
+                text-align: left;
+                color: white;
+                font-size: 30px;
+                padding: 0 0 20px 0;
+            }
+            p{
+                color: white;
+                line-height: 25px;
+            }
+        }
+        #equipo{
+            background-color: #000000;
+        }
+    }
+    .title{
+        text-transform: uppercase;
+        text-align: center;
+        padding:  40px;
+        font-size: 40px;
+        
+    }
+    
+    article{
+        background-color: #b8cccb;
+        h1{
+
+        }
+        p{
+
+        }
+    }h1{
+
+    }
+    .contenedor{
+
     }
 }

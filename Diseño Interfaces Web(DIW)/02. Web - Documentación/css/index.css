@@ -5,12 +5,23 @@
   font-family: "Montserrat", sans-serif;
 }
 
+header {
+  height: 100vh;
+  width: 100%;
+  background-image: url("../multimedia/Picsart_22-08-08_14-45-28-333.jpg");
+  background-attachment: fixed;
+  background-size: cover;
+  background-position: center center;
+}
 header nav {
+  border-top: 1px solid #D6C886;
+  border-bottom: 1px solid #D6C886;
   display: flex;
   padding: 10px;
   background-color: #000000;
 }
 header nav img {
+  padding: 0 20px;
   width: 100px;
 }
 header nav #menu {
@@ -30,4 +41,37 @@ header nav #menu a {
 }
 header nav #menu a:hover {
   color: #D6C886;
+}
+
+section .sobreNosotros {
+  display: grid;
+  grid-template-columns: 3fr 3fr 3fr;
+}
+section .sobreNosotros article {
+  background-color: #274948;
+  box-sizing: border-box;
+  padding: 50px 100px;
+}
+section .sobreNosotros article h1 {
+  text-transform: capitalize;
+  text-align: left;
+  color: white;
+  font-size: 30px;
+  padding: 0 0 20px 0;
+}
+section .sobreNosotros article p {
+  color: white;
+  line-height: 25px;
+}
+section .sobreNosotros #equipo {
+  background-color: #000000;
+}
+section .title {
+  text-transform: uppercase;
+  text-align: center;
+  padding: 40px;
+  font-size: 40px;
+}
+section article {
+  background-color: #b8cccb;
 }/*# sourceMappingURL=index.css.map */
