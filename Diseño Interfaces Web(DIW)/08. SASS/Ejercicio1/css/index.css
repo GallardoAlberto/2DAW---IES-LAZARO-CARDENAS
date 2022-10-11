@@ -30,6 +30,7 @@ html body #inicio #navbar .contenedor ul {
   list-style-type: none;
 }
 html body #inicio #navbar .contenedor ul li {
+  text-transform: uppercase;
   padding: 0 20px;
 }
 html body #inicio #navbar .contenedor ul li a {
@@ -44,8 +45,12 @@ html body #inicio #portada .contenedor .portada-fila .portada-fila-txt .large {
   line-height: 30px;
   margin-bottom: 30px;
 }
+html body #inicio #portada .contenedor .portada-fila .portada-fila-txt .mayus {
+  text-transform: uppercase;
+}
 html body #inicio #portada .contenedor .portada-fila .portada-fila-txt h1 {
   padding: 20px 0;
+  text-transform: uppercase;
 }
 html body #inicio #portada .contenedor .portada-fila .portada-fila-txt h1 .txt-secundario {
   color: #00b5dc;
@@ -95,6 +100,7 @@ html body #servicios .contenedor .servicios-fila .servicios-fila-caja h4 {
   width: 100%;
   text-align: left;
   font-size: 20px;
+  text-transform: capitalize;
 }
 html body #servicios .contenedor .servicios-fila .servicios-fila-caja p {
   text-align: left;
@@ -143,9 +149,6 @@ html body #contact .contenedor form button {
   margin: 20px 0 200px 0;
 }
 html body #pie {
-  padding: 50px;
-}
-html body #pie .contenedor {
-  width: 15%;
-  margin: 0 auto;
+  padding: 50px 0;
+  text-align: center;
 }/*# sourceMappingURL=index.css.map */
