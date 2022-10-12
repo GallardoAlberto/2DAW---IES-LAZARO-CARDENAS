@@ -16,12 +16,7 @@ $fondoGris : #C5CFD1;
     // color: white;
 }
 header{
-    background-image: url("../multimedia/fondo1.jpg");
-    background-repeat: no-repeat;
-    background-size: cover;
 
-    background-position: center;
-    height: 100vh;
     nav{
         width: 100%;
         position: fixed;
@@ -57,60 +52,58 @@ header{
         }
     }
 }
+
 section{
-    .sobreNosotros{
-        display: grid;
-        grid-template-columns: 2fr 3fr;
-        article{
-            text-align: center;
-            box-shadow: 0px 0px 10px 4px $negro;
-            background-color: $verdeClaro;
-            box-sizing: border-box;
-            padding: 50px 100px;
-            h1{
-                border-bottom: 1px solid white;
-                text-transform: capitalize;
-                color: white;
-                font-size: 30px;
-                padding: 0 0 20px 0;
-            }
-            p{
-                padding: 20px;
-                color: white;
-                line-height: 25px;
-            }
-        }
-    }
-    .title{
-        text-transform: uppercase;
+    padding-top: 126px;
+    h1{
+        background-color: $dorado;
+        text-shadow: 3px 3px 3px $verdeOscuro;
         text-align: center;
-        padding:  40px;
-        font-size: 40px;
+        font-size: 50px;
+        text-transform: uppercase;
+        padding: 50px;
+        color: $blanco;
         
-    }
-    .noticias{
+    }div{
         background-color: $fondoGris;
+        box-shadow: 0px 0px 10px 2px $negro;
 
         display: grid;
-        grid-template-columns: 3fr 3fr;
-        article{
-            padding: 50px;
-            h2{
-                text-align: center;
-                border-radius: 20px;
-                padding: 30px;
-                color: $blanco;
-                background-color: $negro;
+        grid-template-columns: 3fr 3fr 3fr;
+    }article{
+        border-radius: 7px;
+        padding: 50px 0 10px 0;
+        width: 90%;
+        margin: 0 auto;
+        background-color: $verdeClaro;
+        margin: 20px;
+        a{  
+            display: block;
+            margin: 0 auto;
+            width: 130px;
+            height: 130px;
+            img{
+                display: block;
+                margin: 0 auto;
+                box-shadow: 0px 0px 10px 2px $negro;
+                width: 100px;
+                height: 100px;
             }
-            p{
-    
-            }
-        }h1{
-    
         }
-        .contenedor{
-    
+        h2{
+            text-shadow: 3px 3px 3px $verdeOscuro;
+            margin: 0 auto;
+            background-color: $dorado;
+            padding: 10px;
+            color: $blanco;
+            text-transform: uppercase;
+            text-align: center;
+            
+            &:nth-child(odd){
+                text-shadow: 2px 2px 2px $negro;
+                background-color: $verdeClaro;
+
+            }
         }
     }
-
 }
