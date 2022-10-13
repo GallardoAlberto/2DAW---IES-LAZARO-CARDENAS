@@ -41,4 +41,21 @@ header nav #menu a {
 }
 header nav #menu a:hover {
   color: #D6C886;
+}
+
+article {
+  padding: 150px 20px 20px 20px;
+}
+article form {
+  width: 40%;
+  margin: 0 auto;
+  border-style: solid;
+  border-radius: 7px;
+}
+article form label {
+  padding: 20px;
+}
+article form input, article form select {
+  margin: 10px;
+  padding: 8px;
 }/*# sourceMappingURL=contacto.css.map */

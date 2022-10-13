@@ -26,7 +26,40 @@
     </header>
 
     <section>
-
+      <article>
+        <form method="POST">
+          <div>
+            <label>Nombre: </label>
+            <input type="text" name="nombre" placeholder="Nombre" autofocus required>
+          </div>
+          <div>
+            <label>Apellidos: </label>
+            <input type="text" name="apellidos" placeholder="Apellidos">
+          </div>
+          <div>
+            <label>Télefono: </label>
+            <input type="tel" name="nombre" placeholder="Télefono" required>
+          </div>
+          <div>
+            <label>E-mail: </label>
+            <input type="email" name="nombre" placeholder="E-mail" required>
+          </div>
+          <div>
+            <label>Asunto: </label>
+            <select>
+              <option value="preguntas">Preguntas</option>
+              <option value="pruebas">Pruebas</option>
+              <option value="merchandising">Merchandising</option>
+              <option value="bono">Bono anual</option>
+              <option value="otros">Otros</option>
+            </select>
+          </div>
+          <div>
+            <input type="reset">
+            <input type="submit">
+          </div>
+        </form>
+      </article>
     </section>
 
     <script src="../js/menu.js"></script>
