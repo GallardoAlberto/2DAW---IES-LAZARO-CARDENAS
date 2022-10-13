@@ -17,6 +17,9 @@ header nav {
 header nav #logo {
   display: none;
 }
+header nav #patrocinador {
+  width: 150px;
+}
 header nav img {
   padding: 0 20px;
   width: 100px;
@@ -40,30 +43,33 @@ header nav #menu a:hover {
   color: #D6C886;
 }
 
-section {
-  padding-top: 126px;
+section .espacio_top {
+  padding: 140px 20px 20px 20px;
 }
 section h1 {
+  padding: 20px;
   background-color: #D6C886;
   text-shadow: 3px 3px 3px #1C3C3A;
   text-align: center;
   font-size: 50px;
   text-transform: uppercase;
-  padding: 50px;
   color: rgb(255, 255, 255);
+  box-shadow: inset 0px 0px 10px 2px #274948;
 }
 section div {
   background-color: #C5CFD1;
   box-shadow: 0px 0px 10px 2px #000000;
   display: grid;
-  grid-template-columns: 3fr 3fr 3fr;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
 }
 section article {
-  border-radius: 7px;
-  padding: 50px 0 10px 0;
+  box-shadow: 0px 0px 7px 1px #274948;
+  border: 2px solid #D6C886;
+  border-radius: 20px;
+  padding: 40px 0 10px 0;
   width: 90%;
   margin: 0 auto;
-  background-color: #274948;
+  background-color: #1C3C3A;
   margin: 20px;
 }
 section article a {
@@ -75,13 +81,14 @@ section article a {
 section article a img {
   display: block;
   margin: 0 auto;
-  box-shadow: 0px 0px 10px 2px #000000;
-  width: 100px;
-  height: 100px;
+  box-shadow: 0px 0px 7px 1px #D6C886;
+  width: 120px;
+  height: 120px;
+  border-radius: 100px;
 }
 section article h2 {
   text-shadow: 3px 3px 3px #1C3C3A;
-  margin: 0 auto;
+  margin: 20px auto;
   background-color: #D6C886;
   padding: 10px;
   color: rgb(255, 255, 255);
@@ -90,5 +97,5 @@ section article h2 {
 }
 section article h2:nth-child(odd) {
   text-shadow: 2px 2px 2px #000000;
-  background-color: #274948;
-}/*# sourceMappingURL=pantilla.css.map */
+  background-color: #1C3C3A;
+}/*# sourceMappingURL=plantilla.css.map */

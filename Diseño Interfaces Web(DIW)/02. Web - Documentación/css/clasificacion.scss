@@ -7,6 +7,7 @@ $blanco : rgb(255, 255, 255);
 $verdeClaro : #274948;
 $verdeOscuro : #1C3C3A;
 $fondoGris : #C5CFD1;
+$naranja : #fc5301;
  
 *{
     padding: 0%;
@@ -27,6 +28,9 @@ header{
         background-color: $negro;
         #logo{
             display: none;
+        }
+        #patrocinador{
+            width: 150px;
         }
         img{
             padding: 0 20px;
@@ -52,58 +56,45 @@ header{
         }
     }
 }
-
 section{
-    padding-top: 126px;
-    h1{
-        background-color: $dorado;
-        text-shadow: 3px 3px 3px $verdeOscuro;
-        text-align: center;
-        font-size: 50px;
-        text-transform: uppercase;
-        padding: 50px;
-        color: $blanco;
-        
-    }div{
+    #clasificacion{
+        padding: 170px 20px 40px 20px;
         background-color: $fondoGris;
-        box-shadow: 0px 0px 10px 2px $negro;
-
-        display: grid;
-        grid-template-columns: 3fr 3fr 3fr;
-    }article{
-        border-radius: 7px;
-        padding: 50px 0 10px 0;
-        width: 90%;
-        margin: 0 auto;
-        background-color: $verdeClaro;
-        margin: 20px;
-        a{  
-            display: block;
+        table{
+            background-color: $verdeOscuro;
+            border: 1px solid $blanco;
             margin: 0 auto;
-            width: 130px;
-            height: 130px;
-            img{
-                display: block;
-                margin: 0 auto;
-                box-shadow: 0px 0px 10px 2px $negro;
-                width: 100px;
-                height: 100px;
-            }
-        }
-        h2{
-            text-shadow: 3px 3px 3px $verdeOscuro;
-            margin: 0 auto;
-            background-color: $dorado;
-            padding: 10px;
-            color: $blanco;
-            text-transform: uppercase;
-            text-align: center;
-            
-            &:nth-child(odd){
-                text-shadow: 2px 2px 2px $negro;
-                background-color: $verdeClaro;
+            tr{
+                .textoIzq{
+                    text-align: left;
+                }
+                .negrita{
+                    font-weight: 600;
+                }
+                td{
+                    color: #D6C886;
+                    border: 1px solid $blanco;
+                    padding: 20px;
+                    text-align: center;
+                    font-size: 20px;
 
+                }
+                
+                }
+                #titulo{
+                    td{
+                        color: #e7e7e7;
+                        background-color: #000000;
+
+                    }
+                }
+                #equipo{
+                    td{
+                        background-color: #466e6d;
+                    }
+                
+                }
             }
         }
     }
-}
+

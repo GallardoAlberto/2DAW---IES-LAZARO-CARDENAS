@@ -24,6 +24,9 @@ header nav {
 header nav #logo {
   display: none;
 }
+header nav #patrocinador {
+  width: 150px;
+}
 header nav img {
   padding: 0 20px;
   width: 100px;
