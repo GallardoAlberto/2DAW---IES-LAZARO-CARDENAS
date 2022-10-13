@@ -51,6 +51,8 @@ section #clasificacion table {
   background-color: #1C3C3A;
   border: 1px solid rgb(255, 255, 255);
   margin: 0 auto;
+  border-radius: 7px;
+  box-shadow: 0px 0px 20px 2px;
 }
 section #clasificacion table tr .textoIzq {
   text-align: left;
@@ -59,6 +61,7 @@ section #clasificacion table tr .negrita {
   font-weight: 600;
 }
 section #clasificacion table tr td {
+  border-radius: 7px;
   color: #D6C886;
   border: 1px solid rgb(255, 255, 255);
   padding: 20px;
