@@ -23,13 +23,6 @@ window.addEventListener("scroll", function() {
         $nav.style.transition = "1.5s";
     }
 
-    if(desplazamientoActual >= 973){
-        $nav.style.borderTop = "1px solid #FD5501";
-        $nav.style.borderBottom  = "1px solid #FD5501";
-    }else{
-        $nav.style.borderTop = "1px solid #D6C886";
-        $nav.style.borderBottom  = "1px solid #D6C886";
-    }
     console.log(desplazamientoActual);
 
     /* --actulizamos la ubicacion principal */

@@ -40,21 +40,21 @@ html body #inicio #portada .contenedor .portada-fila {
   margin-top: 15%;
   display: flex;
 }
-html body #inicio #portada .contenedor .portada-fila .portada-fila-txt .large {
+html body #inicio #portada .contenedor .portada-fila-txt .large {
   line-height: 30px;
   margin-bottom: 30px;
 }
-html body #inicio #portada .contenedor .portada-fila .portada-fila-txt .mayus {
+html body #inicio #portada .contenedor .portada-fila-txt .mayus {
   text-transform: uppercase;
 }
-html body #inicio #portada .contenedor .portada-fila .portada-fila-txt h1 {
+html body #inicio #portada .contenedor .portada-fila-txt h1 {
   padding: 20px 0;
   text-transform: uppercase;
 }
-html body #inicio #portada .contenedor .portada-fila .portada-fila-txt h1 .txt-secundario {
+html body #inicio #portada .contenedor .portada-fila-txt h1 .txt-secundario {
   color: #00b5dc;
 }
-html body #inicio #portada .contenedor .portada-fila .portada-fila-txt a {
+html body #inicio #portada .contenedor .portada-fila-txt a {
   background-color: #00b5dc;
   border-radius: 30px;
   padding: 10px 20px;
