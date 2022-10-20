@@ -57,14 +57,17 @@ do{
     
     empleado.calcularNeto();
     
+    empleado.prototype.retencion = empleado.prototype.retencion + "%";
+
     cont++;
     var nombre = prompt("Nombre");
 
-    var nuevoTrabajador = new empleado(cont, nombre);
+    var nuevoTrabajador = new empleado(`Identificador - ${cont}`, nombre);
 
     for (const key in nuevoTrabajador) {
-        document.write(nuevoTrabajador[key] + '<br><br>');
+        document.write(nuevoTrabajador[key] + '<br>');
     }
+    document.write('<br><br><br>')
     
 }while(confirm("Desea continuar: ") == true)
 

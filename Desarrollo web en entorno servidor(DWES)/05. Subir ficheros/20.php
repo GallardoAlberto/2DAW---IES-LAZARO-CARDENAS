@@ -25,11 +25,17 @@
 
     <?php
 		$archivo = $_FILES['archivo']['type'];
-		
+		$tamaño = $_FILES['archivo']['size'];
 		if(strpos($archivo, 'pdf') || strpos($archivo, 'doc')){
-			print "valido";
+			print "Tipo de docuemento valido <br>";
+            if($tamaño > 1000){
+                print "Archivo demasiado grande, error al subir el documento.";
+            }else{
+                print move_uploaded_file($_FILES['archivo']['name'], "/Carpeta"). "Archivo subido con exito";
+            }
 		}else{
-			print "Documento no válido";
+			print "Documento no válido, error al subir documento.";
+
 		}
 
 	?>
