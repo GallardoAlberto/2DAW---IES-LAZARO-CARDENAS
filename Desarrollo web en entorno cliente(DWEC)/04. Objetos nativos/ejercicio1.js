@@ -27,7 +27,7 @@
 // Prueba los ejemplos de los métodos de string.
 
 let fecha = new Date();
-let dia = fecha.getDay();
+let dia = fecha.getDate();
 let mesLetras =  new Intl.DateTimeFormat('es-ES', { month: 'long'}).format(new Date());
 let mes = fecha.getMonth();
 let anio = fecha.getFullYear();
@@ -66,5 +66,5 @@ let cliente = {
 if(cliente.total <= 50){
     document.write(`<br>¡Gracias por su compra, ${cliente.nombre}!`);
 }else{
-    document.write(`<br>El próximo ${diaDescuento} de ${meses[mes + 1]} ,tendrás de descuento un del ${descuento}%`);
+    document.write(`<br>El próximo ${diaDescuento} de ${meses[mes + 1]} ,tendrás un descuento del ${descuento}%`);
 }

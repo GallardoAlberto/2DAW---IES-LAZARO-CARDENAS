@@ -51,7 +51,7 @@ do{
     }
     
     empleado.calcularNeto = () =>{
-        empleado. neto = empleado.prototype.bruto - empleado.prototype.bruto * empleado.prototype.retencion / 100;
+        empleado.neto = empleado.prototype.bruto - empleado.prototype.bruto * empleado.prototype.retencion / 100;
         return alert(empleado.neto);
     }
     
