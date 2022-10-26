@@ -50,12 +50,12 @@ do{
         empleado.prototype.retencion = Number(prompt("Porcentaje a descontar del sueldo(Entre 2 y 25"));
     }
     
-    empleado.calcularNeto = () =>{
+    empleado.prototype.calcularNeto = () =>{
         empleado.neto = empleado.prototype.bruto - empleado.prototype.bruto * empleado.prototype.retencion / 100;
         return alert(empleado.neto);
     }
     
-    empleado.calcularNeto();
+    empleado.prototype.calcularNeto();
     
     empleado.prototype.retencion = empleado.prototype.retencion + "%";
 

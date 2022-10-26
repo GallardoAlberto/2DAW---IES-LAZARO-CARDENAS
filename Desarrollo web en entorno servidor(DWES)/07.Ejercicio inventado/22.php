@@ -33,4 +33,6 @@ if($longitud1 > $longitud2){
 }else{
     print "Tienen el mismo número de letras.";
 }
+
+
 ?>
