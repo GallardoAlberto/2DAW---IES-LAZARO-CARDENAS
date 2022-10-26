@@ -9,4 +9,3 @@ import { Component, OnInit } from '@angular/core';
 })
 export class FechaComponent {
   fecha : any = new Date();
-}
